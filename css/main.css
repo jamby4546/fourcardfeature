@@ -1,0 +1,91 @@
+/***tag selectors***/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAFAFA;
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+}
+
+h1 {
+  color: #4C4E61;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+h3 {
+  color: #4C4E61;
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+  padding: 20px 0 0 30px;
+}
+
+p {
+  color: #A3A5AE;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  padding: 0 0 0 30px;
+}
+/*****class selectors*****/
+
+.light {
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  width: 45%;
+  margin: 0 auto 50px auto;
+}
+
+.box {
+  background-color: white;
+  height: 15em;
+  width: 20em;
+  box-shadow: 5px 5px 20px #A3A5AE;
+  display: inline-block;
+}
+
+.team {
+  border-top: 3px solid #EA5353;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  position: relative;
+}
+
+.supervisor {
+  border-top: 3px solid #45D3D3;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  margin: 0;
+}
+
+.calculator {
+  border-top: 3px solid #549EF2;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  margin: 0;
+}
+
+.karma {
+  border-top: 3px solid #FCAF4A;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  position: relative;
+}
+
+.team-karma {
+  width: 25%;
+  margin: 0 auto 0 auto;
+}
+
+.icon {
+  margin: 0 0 45px 220px;
+}
+
+
+/*******spacer*************/
